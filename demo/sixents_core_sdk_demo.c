@@ -230,10 +230,10 @@ int main(int argc, char* argv[])
     sixents_sdkConf param; // SDK初始化配置参数
 
 #if TEST_HTTP
-    const sixents_char* const curAK = "2564240199";
-    const sixents_char* const curAS = "53dykxn3fvvd54whqxnig40waftn97m8ttgp4rvvahqfsf6uyu5ku8763tjivw63";
-    const sixents_char* const curDevID = "zxwl006";
-    const sixents_char* const curDevType = "x06sdw";
+    const sixents_char* const curAK = "******";//以下四行内容需要填入六分服务提供商提供的权鉴信息
+    const sixents_char* const curAS = "******";
+    const sixents_char* const curDevID = "*****";
+    const sixents_char* const curDevType = "******";
 #else
     const sixents_char* const curAK = "6378599618";
     const sixents_char* const curAS = "kd7v0ayh076zsuefiixqspnd84bgmadxghnj7eckwiwmjjm2nz5dq4ppzrpctcte";
